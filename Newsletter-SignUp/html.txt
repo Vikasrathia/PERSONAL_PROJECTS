@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            height: 70vh;
+        }
+
+        /* .header {
+            margin-top: 2rem;
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/back.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 10px 8%;
+            position: relative;
+        } */
+
+        .page {
+            background-color: rgb(19, 19, 62);
+            width: 33rem;
+            height: 37rem;
+            text-align: center;
+            margin-left: 29rem;
+            margin-top: 5.4rem;
+            border-radius: 8%;
+        }
+
+        #name {
+            font-size: 2rem;
+            font-family: Verdana;
+            color: pink;
+            text-align: center;
+            margin-top: -34rem;
+            margin-left: -2rem;
+        }
+
+        .form {
+            margin-left: 33rem;
+            margin-top: 3rem;
+        }
+
+        #first {
+            color: pink;
+            font-family: Verdana;
+            font-size: 1rem;
+            width: 20px;
+            height: 20px;
+        }
+
+        #email {
+            color: pink;
+            font-family: Verdana;
+            font-size: 1rem;
+            width: 20px;
+            height: 20px;
+        }
+
+        #pass {
+            color: pink;
+            font-family: Verdana;
+            font-size: 1rem;
+            width: 20px;
+            height: 20px;
+        }
+
+        #num {
+            color: pink;
+            font-family: Verdana;
+            font-size: 1rem;
+            width: 20px;
+            height: 20px;
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            padding-top: 5px;
+            margin-left: 4rem;
+        }
+
+        .type {
+            width: 15rem;
+            height: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 6%;
+            color: rgb(104, 35, 116);
+            font-family: Verdana;
+            font-weight: bold;
+            background-color: rgb(210, 178, 240);
+        }
+
+        .type1 {
+            width: 15rem;
+            height: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 6%;
+            color: rgb(104, 35, 116);
+            font-family: Verdana;
+            font-weight: bold;
+            margin-left: 11px;
+            background-color: rgb(210, 178, 240);
+        }
+
+        .type2 {
+            width: 15rem;
+            height: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 6%;
+            color: rgb(104, 35, 116);
+            font-family: Verdana;
+            font-weight: bold;
+            margin-left: 1px;
+            background-color: rgb(210, 178, 240);
+        }
+
+        #forget {
+            margin-top: 4rem;
+            margin-left: 14.5rem;
+            color: blueviolet;
+            padding-top: 8rem;
+            /* margin-top: -3rem; */
+        }
+
+        .check {
+            font-size: 14px;
+            color: rgb(143, 110, 174);
+            margin-top: 3rem;
+        }
+
+        #checks {
+
+            margin-top: 1rem;
+
+        }
+
+        .terms {
+            margin-left: 6.5rem;
+            padding-top: 0.5rem;
+            margin-top: -2rem;
+        }
+
+        .signin {
+            background-color: rgb(19, 19, 62);
+            width: 7rem;
+            height: 3rem;
+            margin-left: 10rem;
+            margin-top: 40px;
+            border-radius: 5%;
+            color: pink;
+            font-size: 15px;
+            font-family: Verdana;
+            border: solid 2px white;
+
+        }
+
+        .google {
+            margin-left: 40rem;
+            margin-top: 20px;
+            width: 12rem;
+            height: 3rem;
+            border-radius: 5%;
+            color: pink;
+            font-size: 5px;
+            font-family: Verdana;
+            border: solid 2px white;
+            background-color: rgb(19, 19, 62);
+
+        }
+
+        .google-btn {
+            width: 22px;
+            height: 22px;
+            margin-left: -9rem;
+            margin-top: -0.6rem;
+        }
+
+        #mid {
+            font-size: 20px;
+            font-family: monospace;
+            color: blueviolet;
+            margin-left: 45rem;
+            margin-top: 1rem;
+        }
+
+        .head2 {
+            margin-top: -19px;
+            margin-left: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="page"></div>
+        <div id="name">Sign Up</div>
+        <form class="form" action="rathivikas922@gmail.com">
+            <label id="first" for="">Your name: </Label>
+            <input class="type" name="fname" type="text"  value=""><br>
+            <label id="email" for="">Your email: </label>
+            <input class="type" name="email" type="gmail"  value=""><br>
+            <label id="pass" for="">Password: </label>
+            <input class="type1" name="password" type="password"  value=""><br>
+            <label id="num" for="">Ph.Number: </label>
+            <input class="type2" name="number" type="number"  value="">
+            <!-- <a id="forget" href="">Forget password ?</a> -->
+            <div class="terms">
+                <input id="checks" type="checkbox" name="" value=""><br>
+                <!-- <a id="forget" href="">Forget password ?</a> -->
+                <label class="check" for="">Agree with all Terms and Conditions. </label>
+            </div>
+            <a id="forget" href="">Forget password ?</a>
+            <div>
+                <button class="signin">Sign in</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
